@@ -12,3 +12,4 @@ C:\DevOrram\obj\Debug\net8.0\refint\DevOrram.dll
 C:\DevOrram\obj\Debug\net8.0\DevOrram.pdb
 C:\DevOrram\obj\Debug\net8.0\DevOrram.genruntimeconfig.cache
 C:\DevOrram\obj\Debug\net8.0\ref\DevOrram.dll
+C:\DevOrram\obj\Debug\net8.0\DevOrram.sourcelink.json
