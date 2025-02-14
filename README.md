@@ -35,11 +35,11 @@
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ##Documentação do Sistema de Testes com xUnit##
-  O projeto de testes usa o framework xUnit para a execucão dos testes.
-  A versão do .NET utilizada no projeto é compatível com os pacotes do xUnit. NET8
-  O projeto de testes está separado do projeto principal, esta localizado no petshoptests.
-  Para rodar os teste no visual studio clique no projeto com botao direito e vá em 'Executar testes' ou 'Depurar testes' para caso queira debuggar, Ou basta digitar no terminal da aplicacão 'dotnet test'.
-  O sistema de testes visa validar o comportamento da classe ComparadorDePetshops.
+  - O projeto de testes usa o framework xUnit para a execucão dos testes.
+  - A versão do .NET utilizada no projeto é compatível com os pacotes do xUnit. NET8
+  - O projeto de testes está separado do projeto principal, esta localizado no petshoptests.
+  - Para rodar os teste no visual studio clique no projeto com botao direito e vá em 'Executar testes' ou 'Depurar testes' para caso queira debuggar, Ou basta digitar no terminal da aplicacão 'dotnet test'.
+  - O sistema de testes visa validar o comportamento da classe ComparadorDePetshops.
 
  - #Ao criar o projeto de testes tive alguns problemas, criava no mesmo diretorio do projeto principal e o vs não reconhecia o Xunit mesmo eu tendo os pacotes necessarios.
    Essa documentacão me ajudou nos conceitos basicos para criar e realizar meus testes https://www.macoratti.net/19/09/cshp_unitest1.htm
