@@ -25,3 +25,10 @@ Documentação da Solução - Comparador de Petshops DevOrram
 - Uso de CultureInfo.InvariantCulture no program para Data: Para garantir que as datas sejam interpretadas corretamente independentemente da localizacão do sistema.
 - Implementei uma validacão para caso digitar uma data invalida, ou um valor invalido quando informar a quantidade de cães, caso seja invalido os campos vai retornar uma mensagem no console informando para ajustar (Numa situacao real, implementaria um modal aqui)
 - A porcentagem do 'Meu Canino Feliz' apliquei direto na instanciacão da Lista de PetShop.
+
+###Instrucões para Executar o Sistema###
+- Esteja com SDK do .NET
+- Baixe o projeto, abra com a IDE visual studio ou vscode.
+- Execute a solucão -> Compile o projeto (dotnet build) starte a aplicacão no visual studio. Ou no console do vscode ou no vs execute 'dotnet run' para iniciar o projeto no terminal.
+- Personalizar o sistema:
+   - Caso queria adicionar mais petShops , basta editar a lista que esta na program.cs
