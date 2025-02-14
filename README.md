@@ -23,7 +23,7 @@
   no  preco, eu ordenei pela menor distância (ThenBy(p => p.Distancia)), pego o primeiro da lista ordenada (First()), que será o pet shop com o menor preço e, em caso de empate, o mais próximo.
 - Enum TipoDia: Optei por criar  um enum para diferenciar dias da semana e fds.
 - Uso de CultureInfo.InvariantCulture no program para Data: Para garantir que as datas sejam interpretadas corretamente independentemente da localizacão do sistema.
-- Implementei uma validacão para caso digitar uma data invalida, ou um valor invalido quando informar a quantidade de cães, caso seja invalido os campos vai retornar uma mensagem no console informando para ajustar (Numa situacao real, implementaria um modal aqui)
+- Implementei uma validacão para caso digitar uma data invalida, ou um valor invalido quando informar a quantidade de cães, caso seja invalido os campos vai retornar uma mensagem no console informando para ajustar (Em um projeto web, implementaria um modal aqui)
 - A porcentagem do 'Meu Canino Feliz' apliquei direto na instanciacão da Lista de PetShop.
 
 ###Instrucões para Executar o Sistema###
