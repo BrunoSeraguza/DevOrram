@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DevOrram")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8a9ddf34da7b2c34b1592f8f77592578f6370a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab15bf36eebc3ebce3d76585d659adc21200a5cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("DevOrram")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DevOrram")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
