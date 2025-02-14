@@ -13,10 +13,9 @@ public class Program
             new PetShop("Vai Rex", 1.7, 15m, 50m, 20m, 55m),
             new PetShop("ChowChawgas", 0.8, 30m, 45m, 30m, 45m)
         };
-        //TODO FAZER APRESENTACAO
+  
         var comparador = new ComparadorPetShops(petshops);
-        //TODO FORMATAR DATA
-        //USAR PRIMARY CONSTRUCTOR
+     
         Console.Write("Olá Sr Eduardo, vamos encontrar a melhor opção para levar seus cães! Por favor digite a melhor data para agendarmos (dd/MM/yyyy): ");
         DateTime data = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", CultureInfo.InvariantCulture);
 
