@@ -1,14 +1,12 @@
 Documentação da Solução - Comparador de Petshops DevOrram
 
  ###Premissas Assumidas###
-- Para o desenvolvimento da solucão, considerei as seguintes premissas:
 - São três petshops disponíveis, cada um com suas regras de precificacão e localizacão.
 - O cliente deseja encontrar o petshop mais vantajoso financeiramente considerando preço e proximidade do seu canil.
 - O calculo do preço depende da quantidade de cães pequenos e grandes.
 - Os precos variam entre dias de semana e finais de semana para alguns petshops.
 
 ###Decisões de Projeto###
-Durante o desenvolvimento, essas são as decisões que tomei para arquitetura e implementação:
 - Escolhi C# pela facilidade de manipulacão de collections e datas e por estar mais familiariazado.
 - Classe Petshop: Model do projeto, Cada petshop é representado por um objeto contendo nome, distância e tabela de precos para caes grandes e caes pequenos em dias de semana e aos fds. Contém um metodo CalculaPreco que é responsavel por calcular o custo total do 
   serviço de banho para cães de pequeno e grande porte, considerando se é dias da semana ou fds.
